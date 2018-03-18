@@ -1,1 +1,1 @@
-../webpack/src/bundle/bundle.js
+../../webpack/src/bundle/bundle.js
