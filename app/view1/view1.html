@@ -1,9 +1,14 @@
 <div id="wc">
-    <wc-maker class="" id="my-maker-1" uparam="{from:'Mel Heravi', to:'You', link:'http://www.melify.com'}" header="I AM A <u>DEFAULT</u> TEMPLATE">
-	<wc-maker class="" id="my-maker-1" uparam="{from:'Mel Heravi', to:'You', link:'http://www.melify.com'}" header="I AM A <u>DEFAULT</u> TEMPLATE">
-	    <!-- "uparam" RETURNED IN SUBSCRIPTION -->
-	    <h4><i class="fa fa-info-circle"></i> Used by maker to create consistent components</h4>
-	    <p>you can click on me to get a callback</p>
-	</wc-maker>
-    </wc-maker>
+    <div style="margin:40px">
+	<!-- START ACTUAL COMPONENT CODE -->
+	<wc-carousel id="my-carousel-1" options='{"slidesToShow":3, "autoplay":true, "dots":true, "speed":1000, "initialSlide":0}'>
+	    <div><a href="#"><img src="http://localhost/tk/img/business/png/cart-10.png"	width="300" slick-caption="Picture A" alt="Picture A" /></a></div>
+	    <div><a href="#"><img src="http://localhost/tk/img/business/png/barcode.png"	width="300" slick-caption="Picture B" alt="Picture B" /></a></div>
+	    <div><a href="#"><img src="http://localhost/tk/img/business/png/calculator.png"	width="300" slick-caption="Picture C" alt="Picture C" /></a></div>
+	    <div><a href="#"><img src="http://localhost/tk/img/business/png/bag-6.png"		width="300" slick-caption="Picture D" alt="Picture D" /></a></div>
+	    <div><a href="#"><img src="http://localhost/tk/img/business/png/coin-10.png"	width="300" slick-caption="Picture E" alt="Picture E" /></a></div>
+	    <div><a href="#"><img src="http://localhost/tk/img/business/png/credit-card-1.png"	width="300" slick-caption="Picture F" alt="Picture F" /></a></div>
+	</wc-carousel>
+	<!-- END ACTUAL COMPONENT CODE -->
+    </div>
 </div>
