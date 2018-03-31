@@ -2,43 +2,78 @@
     <h1 align="center">ANGULAR + W3C WEB COMPONENTS</h1>
     <hr/>
 
-    	<wc-maker class="" id="my-maker-1" uparam="{from:'Mel Heravi', to:'You', link:'http://www.melify.com'}" header="I AM A <u>DEFAULT</u> TEMPLATE">
-	    <h4><i class="fa fa-info-circle"></i> Used by maker to create consistent components</h4>
-	    <p>you can click on me to get a callback</p>
-	</wc-maker>
-<hr/>
-		<wc-card id="my-card-1" class="col-md-4">
-		    <wc-card-header>
-			Card Header (image top)
-		    </wc-card-header>
-
-		    <wc-card-img position="top">
-			<img src="http://localhost/tk/lib/components/w/img/tmp/12s.jpg" width="100%" />
-		    </wc-card-img>
-
-		    <wc-card-body>
-			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-			sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren
-		    </wc-card-body>
-
-		    <wc-card-footer>
-			Card Footer
-		    </wc-card-footer>
-		</wc-card>
-<hr/>
-	<div>
-	    <wc-carousel id="my-carousel-1" options='{"slidesToShow":3, "autoplay":true, "dots":true, "speed":1000, "initialSlide":0}'>
-		<div><a href="#"><img src="http://localhost/tk/img/business/png/cart-10.png"	   width="300" slick-caption="Picture A" alt="Picture A" /></a></div>
-		<div><a href="#"><img src="http://localhost/tk/img/business/png/barcode.png"	   width="300" slick-caption="Picture B" alt="Picture B" /></a></div>
-		<div><a href="#"><img src="http://localhost/tk/img/business/png/calculator.png"	   width="300" slick-caption="Picture C" alt="Picture C" /></a></div>
-		<div><a href="#"><img src="http://localhost/tk/img/business/png/bag-6.png"	   width="300" slick-caption="Picture D" alt="Picture D" /></a></div>
-		<div><a href="#"><img src="http://localhost/tk/img/business/png/coin-10.png"	   width="300" slick-caption="Picture E" alt="Picture E" /></a></div>
-		<div><a href="#"><img src="http://localhost/tk/img/business/png/credit-card-1.png" width="300" slick-caption="Picture F" alt="Picture F" /></a></div>
-	    </wc-carousel>
+    	<div class="container">
+	    <div class="row">
+		<div class="col-md-12">
+		    <wc-maker class="" id="my-maker-1" uparam="{from:'Mel Heravi', to:'You', link:'http://www.melify.com'}" header="I AM A <u>DEFAULT</u> TEMPLATE">
+			<h4><i class="fa fa-info-circle"></i> Used by maker to create consistent components</h4>
+			<p>you can click on me to get a callback</p>
+		    </wc-maker>
+		</div>
+	    </div>
 	</div>
 <hr/>
-	<div class="col-md-8">
-	    <h3 class="h3-direction">Horizontal</h3>
+ 	<div class="container">
+	    <div class="row">
+		<div class="col-md-6">
+		    <wc-card id="my-card-1">
+			<wc-card-header>
+			    Card Header (image top)
+			</wc-card-header>
+
+			<wc-card-img position="top">
+			    <img src="http://localhost/tk/lib/components/w/img/tmp/12s.jpg" width="100%" />
+			</wc-card-img>
+
+			<wc-card-body>
+			    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+			    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren
+			</wc-card-body>
+
+			<wc-card-footer>
+			    Card Footer
+			</wc-card-footer>
+		    </wc-card>
+		</div>
+
+		<div class="col-md-6">
+		    <wc-card id="my-card-2">
+			<wc-card-header>
+			    Card Header (image bottom)
+			</wc-card-header>
+
+			<wc-card-img position="bottom">
+			    <img src="http://localhost/tk/lib/components/w/img/tmp/12s.jpg" width="100%" />
+			</wc-card-img>
+
+			<wc-card-body>
+			    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren
+			    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+			</wc-card-body>
+
+			<wc-card-footer>
+			    Card Footer
+			</wc-card-footer>
+		    </wc-card>
+		</div>
+	    </div>
+	</div>
+<hr/>
+	<div class="container">
+	    <div class="row">
+		<div class="col-md-12">
+		    <wc-carousel id="my-carousel-1" options='{"slidesToShow":3, "autoplay":true, "dots":true, "speed":1000, "initialSlide":0}'>
+			<div><a href="#"><img src="http://localhost/tk/img/business/png/cart-10.png"	   width="300" slick-caption="Picture A" alt="Picture A" /></a></div>
+			<div><a href="#"><img src="http://localhost/tk/img/business/png/barcode.png"	   width="300" slick-caption="Picture B" alt="Picture B" /></a></div>
+			<div><a href="#"><img src="http://localhost/tk/img/business/png/calculator.png"	   width="300" slick-caption="Picture C" alt="Picture C" /></a></div>
+			<div><a href="#"><img src="http://localhost/tk/img/business/png/bag-6.png"	   width="300" slick-caption="Picture D" alt="Picture D" /></a></div>
+			<div><a href="#"><img src="http://localhost/tk/img/business/png/coin-10.png"	   width="300" slick-caption="Picture E" alt="Picture E" /></a></div>
+			<div><a href="#"><img src="http://localhost/tk/img/business/png/credit-card-1.png" width="300" slick-caption="Picture F" alt="Picture F" /></a></div>
+		    </wc-carousel>
+		</div>
+	    </div>
+	</div>
+<hr/>
 	    <wc-form name="my-form" role="form" id="my-form" size="form-control-md">
 		<div class="container">
 		    <div class="row">
@@ -97,7 +132,6 @@
 		    </div>
 		</div>
 	    </wc-form>
-	</div>
 <hr/>
 
 </div>
