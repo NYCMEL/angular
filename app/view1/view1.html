@@ -1,13 +1,7 @@
-<div class="container">
-    <div class="row">
-	<div class="col-md-12">
-	    <h1>ANGULAR + W3C WEB COMPONENTS</h1>
-	    <hr>
-	</div>
-    </div>
-</div>
-
 <div id="wc">
+    <h1 align="center">ANGULAR + W3C WEB COMPONENTS</h1>
+    <hr/>
+
     	<wc-maker class="" id="my-maker-1" uparam="{from:'Mel Heravi', to:'You', link:'http://www.melify.com'}" header="I AM A <u>DEFAULT</u> TEMPLATE">
 	    <h4><i class="fa fa-info-circle"></i> Used by maker to create consistent components</h4>
 	    <p>you can click on me to get a callback</p>
@@ -41,6 +35,68 @@
 		<div><a href="#"><img src="http://localhost/tk/img/business/png/coin-10.png"	   width="300" slick-caption="Picture E" alt="Picture E" /></a></div>
 		<div><a href="#"><img src="http://localhost/tk/img/business/png/credit-card-1.png" width="300" slick-caption="Picture F" alt="Picture F" /></a></div>
 	    </wc-carousel>
+	</div>
+<hr/>
+	<div class="col-md-8">
+	    <h3 class="h3-direction">Horizontal</h3>
+	    <wc-form name="my-form" role="form" id="my-form" size="form-control-md">
+		<div class="container">
+		    <div class="row">
+			<div class="col-md-6">
+			    <wc-text name="v(uname)" id="uname-1" label="Full Name" placeholder="your name goes here..." columns="4,8"
+				     value="Mel Heravi" data-key="uname1" required></wc-text>
+			    <wc-text name="v(email)" id="email-1" label="Email" placeholder="your email here..." columns="4,8" type="email"
+				     pattern="email" value="mel@melify.com" required></wc-text>
+			    <wc-text name="v(phone)" id="phone-1" label="Phone" placeholder="Like: 212-555-5555"
+				     data-key="phone1" pattern="phone" columns="4,8" help="Phone number is NOT required"
+				     data-error="Format like 212-555-5555"></wc-text>
+
+			    <wc-calendar id="my-calendar" name="adate" label="Date" columns="4,8" placeholder="mm/dd/yyyy"
+					 help="date is a required field" data-error="must be a date format..." required>
+			    </wc-calendar>
+			    
+			    <wc-groupbox id="groupbox-1" name="v(gbox)" label="Fav Fruit" columns="4,8" help="Please select one">
+				<div class="float-sm-left">
+				    <wc-radiobutton id="fruit-apple" name="v(fruit)" label="Apple"  value="1" required></wc-radiobutton>
+				</div>
+				<div class="float-sm-left">
+				    <wc-radiobutton id="fruit-orange" name="v(fruit)" label="Orange" value="2"></wc-radiobutton>
+				</div>
+				<div class="float-sm-left">
+				    <wc-radiobutton id="fruit-peach" name="v(fruit)" label="Peach"  value="3"></wc-radiobutton>
+				</div>
+			    </wc-groupbox>
+
+			    <wc-groupbox id="groupbox-2" name="v(gbox2)" label="Agreements" columns="4,8" help="You must agree with Terms <HTMLCODE/> Conditions">
+				<div class="float-sm-left">
+				    <wc-checkbox id="checkbox-1" name="v(agree)" label="I Agree" checked required></wc-checkbox>
+				</div>
+				<div class="float-sm-left">
+				    <wc-checkbox id="checkbox-2" name="v(signup)" label="Subscribe me"></wc-checkbox>
+				</div>
+			    </wc-groupbox>
+			</div>
+
+			<div class="col-md-6">
+			    <wc-select id="color-1" name="v(color)" data-key="color1" label="Fav Color" columns="4,8" help="Please pick a color" data-error="color is a required field" required searchable="true">
+				<option value="">[Please Select]</option>
+				<option value="1">1 = Red</option>
+				<option value="2">2 = White</option>
+				<option value="3">3 = Blue</option>
+			    </wc-select>
+			    
+			    <wc-textarea id="textarea-1" label="Notes" columns="4,8" placeholder="Your notes ..."  help="Notes is NOT a required field"></wc-textarea>
+			</div>
+			
+			<div class="col-md-12">
+			    <hr />
+			    <div class="form-group">
+				<input type="submit" name="action" value="LET'S GO" class="btn btn-primary" id="submit-btn-1" />
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </wc-form>
 	</div>
 <hr/>
 
