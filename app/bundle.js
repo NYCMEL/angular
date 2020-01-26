@@ -1,1 +1,1 @@
-../../webpack/build/bundle.js
+/Melify/mtk/dev/tk/lib/components/misc/webpack/build/wc.bundle.js
