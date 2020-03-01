@@ -1,0 +1,26 @@
+@import "/fonts/font-awesome/font-awesome.css";
+
+/* Roboto */
+@font-face {
+    font-family: "fl";
+    font-weight: 300!important;
+    src: local('Robotto-Light'), local('Robotto Light'), url('/fonts/roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "fr";
+    font-weight: 400!important;
+    src: local('Robotto-Regular'), local('Robotto Regular'), url('/fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "fm";
+    font-weight: 500!important;
+    src: local('Robotto-Medium'), local('Robotto Medium'), url('/fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: "fb";
+    font-weight: 700!important;
+    src: local('Robotto-Bold'), local('Robotto Bold'), url('/fonts/roboto/Roboto-Black.ttf');
+}
